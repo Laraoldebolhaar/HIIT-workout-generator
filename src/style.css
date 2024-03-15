@@ -1,0 +1,88 @@
+body {
+  background-color: #282b35;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+a {
+  color: #1864ab;
+}
+
+a:hover {
+  font-weight: bold;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+main {
+}
+
+form {
+  padding: 30px;
+  background-color: #30323a;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(40, 43, 53, 100);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 15px;
+}
+
+.submit-button {
+  background-color: #1864ab;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 14px 24px;
+  width: 150px;
+}
+
+.submit-button:hover {
+  color: #1864ab;
+  background-color: white;
+  transition: background-color 0.3s;
+  border-color: 10px solid #1864ab;
+  font-weight: bolder;
+}
+
+.workout {
+  background-color: #30323a;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
+
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.5;
+  border-left: 3px solid rgba(24, 100, 171, 100);
+}
+
+footer {
+  color: white;
+  font-size: 13px;
+  padding: 30px 5px;
+  text-align: center;
+}
