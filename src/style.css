@@ -72,12 +72,13 @@ form {
 .workout {
   background-color: #30323a;
   box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.08);
-
   color: white;
   font-size: 16px;
   padding: 20px;
   line-height: 1.5;
   border-left: 3px solid rgba(24, 100, 171, 100);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 footer {
