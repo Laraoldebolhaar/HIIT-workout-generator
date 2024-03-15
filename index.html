@@ -10,13 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>HIIT Workout Generator</title>
   </head>
   <body>
     <div class="container">
       <header><h1>HIIT Workout Generator</h1></header>
       <main>
-        <form>
+        <form id="HIIT-workout-generator-form">
           <input
             type="text"
             placeholder="What do you wanna work on today?"
@@ -27,7 +28,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="workout">Your workout will appear here</div>
+        <div class="workout" id="workout"></div>
       </main>
       <footer>
         This AI Project was coded by
