@@ -1,11 +1,10 @@
-// Import Axios and Typewriter libraries
 import axios from "axios";
 import Typewriter from "typewriter-effect";
 
 function displayWorkout(response) {
   console.log("workout generated");
   new Typewriter("#workout", {
-    strings: [response.data.answer], // Pass the response answer as an array
+    strings: [response.data.answer],
     autoStart: true,
     delay: 20,
     cursor: "",
