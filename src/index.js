@@ -1,6 +1,3 @@
-import axios from "axios";
-import Typewriter from "typewriter-effect";
-
 function displayWorkout(response) {
   console.log("workout generated");
   new Typewriter("#workout", {
