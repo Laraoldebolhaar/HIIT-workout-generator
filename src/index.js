@@ -1,7 +1,7 @@
 function displayWorkout(response) {
   console.log("workout generated");
   new Typewriter("#workout", {
-    strings: [response.data.answer],
+    strings: response.data.answer,
     autoStart: true,
     delay: 20,
     cursor: "",
