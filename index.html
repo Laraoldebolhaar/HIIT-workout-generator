@@ -12,25 +12,28 @@
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <title>HIIT Workout Generator</title>
+    <title>HIIT Workout Generator 💥</title>
   </head>
   <body>
     <div class="container">
       <header><h1>HIIT Workout Generator</h1></header>
       <main>
-        <form id="HIIT-workout-generator-form">
-          <input
-            type="text"
-            placeholder="What do you wanna work on today?"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="workout" id="workout"></div>
+        <div class="form-container">
+          <form id="HIIT-workout-generator-form">
+            <input
+              type="text"
+              placeholder="What do you wanna work on today?"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="example">i.e. Legs, Core, Cardio or Upper Body</div>
+        </div>
+        <div class="workout hidden" id="workout"></div>
       </main>
       <footer>
         This AI Project was coded by
